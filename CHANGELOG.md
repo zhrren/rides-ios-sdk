@@ -7,6 +7,10 @@
 * All model properties are now Optionals. 
   * In Objective-C, `Double`, `Int`, and `Bool` are represented by NSNumber `boolValue`, `intValue`, and `doubleValue`. The `UBSDKDistanceUnavailable`, `UBSDKEstimateUnavailable`, and `UBSDKBearingUnavailable` constants are now removed. 
 
+### Deprecated
+
+ * The Ride Request Widget is now deprecated. New apps will not be able to add the Ride Request Widget, and existing apps have until XX/YY to migrate. See [blog post] for more details. 
+
 ## [0.8.1] 2018-01-31
 
 ### Fixes

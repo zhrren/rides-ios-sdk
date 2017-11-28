@@ -55,6 +55,8 @@ private enum Resources: String {
 /**
  Endpoints related to components.
  - RideRequestWidget: Ride Request Widget endpoint.
+ - Warning: The Ride Request Widget is deprecated, and will no longer work for new apps.
+ Existing apps have until XX/YY to migrate. See ANNOUNCEMENT for more details.
  */
 enum Components: APIEndpoint {
     case rideRequestWidget(rideParameters: RideParameters?)

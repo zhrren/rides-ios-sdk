@@ -31,6 +31,8 @@ Possible errors that can occur in the RideRequestView.
 - networkError:               A network error occured
 - notSupported:               The functionality attempted is not supported on the current device
 - unknown:                    Unknown error occured.
+- Warning: The Ride Request Widget is deprecated, and will no longer work for new apps.
+Existing apps have until XX/YY to migrate. See ANNOUNCEMENT for more details.
 */
 @objc public enum RideRequestViewErrorType: Int {
     case accessTokenExpired
